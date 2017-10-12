@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="squares_share_queens_move",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="squares_share_diagonal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#aabc5afb599f83fd62685f3b80fe426f8"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="is_square_ok",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a8e3468f434c2f689409db4e6e4928249"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="squares_share_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a6d76743623d19c10e088ab15621c15c3"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 [label="squares_share_rank",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a9fc24ef7bb5fcae6fa68b3b4483a5c19"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+}

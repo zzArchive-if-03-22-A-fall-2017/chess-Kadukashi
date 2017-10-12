@@ -1,0 +1,30 @@
+digraph G
+{
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="ui_branch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="print_chess_board",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess__printer_8cpp.html#a034e47a2bfbeeaed3ec619511ab50455"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="get_piece_symbol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess__printer_8cpp.html#a7ed805d66d52f87984092f63891adf31"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="setup_chess_board",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a79843ccec07e094179ccbe89e6462e53"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 [label="add_piece",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a594cef50114e029a71fae4c55ced5554"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node6 [label="get_square",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a7f80fd2642ad8082fafa898f35241bd8"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node7 [label="is_square_ok",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a8e3468f434c2f689409db4e6e4928249"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node8 [label="nf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#ab88873b88790f371d7913bb87727eca0"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node9 [label="nr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a1c163d634f56f54a16343c41b906f646"];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node10 [label="is_square_occupied",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#aa3181c4f74a2d291a5f44b327349f56d"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node11 [label="init_chess_board",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chess_8cpp.html#a51c7689e6f225a51e7e3de2d10637c47"];
+}

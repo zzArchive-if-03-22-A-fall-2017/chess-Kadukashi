@@ -2,8 +2,6 @@
 
 # Assignment: Chess
 
-An assignment to train the usage of structs and a bit of algorithmic skills by implementing the multiplication and division methods of large numbers.
+The first assignment dealing with multiple files and unit test.
 
-Read the [problem statement](pyramid_of_numbers.md) thoroughly and do all the required tasks listed there.
-
-![A chess board](chess_board_blank.gif)
+Read the [problem statement](http://htmlpreview.github.com/?https://github.com/jennybc/STAT545A/blob/master/hw06_scaffolds/03_knitWithoutRStudio/01_filterReorder.html) for further information.
